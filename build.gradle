@@ -53,7 +53,7 @@ minecraft {
 			property 'forge.logging.console.level', 'debug'
 
 			mods {
-				speedfalldamage {
+				yetnotherchopdownmod {
 					// Main sources (everything that goes in your final compiled mod. From /src/main/)
 					source sourceSets.main
 //					// Test sources (debugging, unit tests. From /src/test/)
@@ -72,7 +72,7 @@ minecraft {
 			property 'forge.logging.console.level', 'debug'
 
 			mods {
-				speedfalldamage {
+				yetnotherchopdownmod {
 					// Main sources (everything that goes in your final compiled mod. From /src/main/)
 					source sourceSets.main
 //					// Test sources (debugging, unit tests. From /src/test/)
@@ -93,7 +93,7 @@ minecraft {
 			args '--mod', modId, '--all', '--output', file('src/generated/resources/')
 
 			mods {
-				speedfalldamage {
+				yetnotherchopdownmod {
 					// Main sources (everything that goes in your final compiled mod. From /src/main/)
 					source sourceSets.main
 //					// Test sources (debugging, unit tests. From /src/test/)
